@@ -1,0 +1,112 @@
+.form-find {
+    display: flex;
+    width: 90%;
+}
+.form-edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.props {
+    border: none;
+}
+.auto-props {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 5px;
+}   
+.form-edit .auto-props {
+    width: 90%;
+}
+
+
+.property {
+    color: #105e00;
+}
+
+.butt-props {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    gap: 60px;
+}
+.edit-butt-props {
+    flex-direction: row;
+}
+
+.one-property {
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-edit .one-property {
+    justify-content: space-between;
+}
+
+.property {
+    width: 200px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.value-property {
+    font-family: 'Montserrat', sans-serif;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    border-radius: 4px;
+}
+.value-property::placeholder {
+    font-size: 15px;
+    font-weight: 100;
+    font-style: italic;
+    padding-left: 5px;
+}
+
+.butt-props button {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.find-car-move,
+.edit-car-move {
+    background-color: #105e00;
+    color: #b9ffab;
+    font-size: 20px;
+}
+.find-car-move {
+    width: 110px;
+    height: 110px;
+}
+.edit-car-move,
+.reset-edit {
+    padding: 8px;
+    width: 140px;
+}
+.reset-find {
+    height: 30px;
+    color: #105e00;
+    background-color: #b9ffab;
+    font-size: 15px;
+    width: 110px;
+}
+.reset-edit {
+    font-size: 20px;
+    width: 140px;
+    color: #105e00;
+    background-color: #b9ffab;
+}
+
+.move-view-find {
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+}
