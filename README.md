@@ -13,8 +13,8 @@ Frontend is written in react, Backend is written in node.js . The work with a da
 - By default, it is available on http://localhost:8000
 
 2. Frontend
-Go to the directory ./frontend
-#### ```npm install```
-Install the desired host in frontend/src/config/config.js
-#### ```npm start```
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser
+- Go to the directory ./frontend
+- #### ```npm install```
+- Install the desired host in frontend/src/config/config.js
+- #### ```npm start```
+- Open [http://localhost:3000](http://localhost:3000) to view it in your browser
