@@ -6,13 +6,13 @@ Frontend is written in react, Backend is written in node.js . The work with a da
 
 ## To deploy a project:
 
-1. Backend:
+1. **Backend:**
 - Go to the directory ./backend
 - #### ```npm install```
 - #### ```npm start```
 - By default, it is available on http://localhost:8000
 
-2. Frontend
+2. **Frontend:**
 - Go to the directory ./frontend
 - #### ```npm install```
 - Install the desired host in frontend/src/config/config.js
