@@ -36,7 +36,8 @@ const FindCarsPage = ({onNextPage}) => {
     }
 
     return (
-        <section className="main-page main-all">
+        <section className="main-page main-all find-bg">
+            <div className='main-bg'></div>
             <EditModal 
                 activeModal={activeModal} 
                 setActiveModal={setActiveModal}

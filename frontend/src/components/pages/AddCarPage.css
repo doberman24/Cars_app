@@ -15,14 +15,13 @@
 .input-add-car input {
     font-family: 'Montserrat', sans-serif;
     border: none;
-    color: #440668;
+    color: #b6b6b6;
     font-size: 18px;
     height: 100%;
     background: none;
     width: 100%;
     text-align: center;
     padding: 0;
-    /* outline: none; */
 }
 .input-add-car input:focus {
     outline: 1px solid #440668;
@@ -47,11 +46,32 @@
     border: none;
     padding: 15px;
     border-radius: 5px;
-    color: #b9ffab;
-    background-color: #105e00;
+    background-color: rgba(3, 0, 209, 0.9);
+    color: #ffb6b6;
     cursor: pointer;
+    z-index: 1;
 }
 .create-button:disabled
 {
     opacity: 50%;
+}
+
+.add-ok {
+    height: 30px;
+    background-color: rgba(3, 0, 209, 0.9);
+    color: #ffb6b6;
+    font-size: 15px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-ok:hover,
+.create-button:hover:not(.create-button:disabled) {
+    background-color: rgba(5, 0, 143, 0.9);
+}
+.add-ok:active,
+.create-button:active:not(.create-button:disabled) {
+    background-color: rgba(189, 0, 0, 0.8);
+    color: rgb(3, 0, 196);
 }

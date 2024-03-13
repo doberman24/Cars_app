@@ -8,7 +8,7 @@ const CreateModal = ({activeModal, closeModal, head, content}) => {
                 <h3 className="modal-head">{head}</h3>
                 <div className="modal-body">
                     <p>{content}</p>
-                    <button onClick={closeModal}>ОК</button>
+                    <button className='add-ok' onClick={closeModal}>ОК</button>
                 </div>
             </section>
         </section>

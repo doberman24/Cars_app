@@ -41,6 +41,7 @@ const AddCarPage = ({ onNextPage }) => {
 
     return (
         <section className="main-page main-create">
+            <div className='main-bg'></div>
             <CreateModal 
                 activeModal={activeModal} 
                 closeModal={closeCreateModal}

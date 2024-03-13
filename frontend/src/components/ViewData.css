@@ -2,6 +2,10 @@
     justify-content: flex-start;
     padding-top: 2%;
     gap: 30px;
+    position: relative;
+    background: url('../img/car-2.jpg') center center no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .background {
@@ -9,13 +13,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #440668;
-    background-color: #ebd2fa;
+    color: #fff;
+    background-color: rgba(15, 15, 15, 0.9);
     padding: 30px 60px;
     width: 90%;
     max-height: 80%;
     box-sizing: border-box;
     border-radius: 20px;
+    z-index: 1;
 }
 
 .find-background {
@@ -43,8 +48,8 @@
 .main-string tr {
     position: sticky;
     top: 0;
-    background-color: #440668;
-    color: #ebd2fa;
+    background-color: rgba(1, 0, 44);
+    color: #b30000;
     text-transform: uppercase;
     height: 60px;
     z-index: 1;
@@ -54,7 +59,7 @@
 }
 
 .main-body tr:nth-child(even) {
-    background-color: #ccb6d8;
+    background-color: rgba(66, 66, 66, 0.6);
 }
 .main-body td {
     font-size: 18px;

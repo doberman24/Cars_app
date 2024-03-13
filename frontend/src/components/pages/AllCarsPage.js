@@ -22,6 +22,7 @@ const AllCarsPage = ({onNextPage}) => {
 
     return (
         <section className="main-page main-all">
+            <div className='main-bg'></div>
             <EditModal 
                 activeModal={activeModal} 
                 setActiveModal={setActiveModal}
